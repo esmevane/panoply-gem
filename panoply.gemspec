@@ -20,10 +20,12 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec", "3.0.0"
   gem.add_development_dependency "pry", "0.10.0"
   gem.add_development_dependency "simplecov", "0.8.2"
+  gem.add_development_dependency "sqlite3", "1.3.9"
 
   gem.add_runtime_dependency "sequel", "4.12.0"
   gem.add_runtime_dependency "sinatra", "1.4.5"
   gem.add_runtime_dependency "haml", "4.0.5"
   gem.add_runtime_dependency "rake", "10.3.2"
   gem.add_runtime_dependency "thin", "1.6.2"
+  gem.add_runtime_dependency "pg", "0.17.1"
 end
